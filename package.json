@@ -19,7 +19,7 @@
         "silence",
         "voice activity detection"
     ],
-    "author": "",
+    "author": "im_justmatthew",
     "license": "MIT",
     "dependencies": {
         "ffmpeg-static": "^5.2.0",
