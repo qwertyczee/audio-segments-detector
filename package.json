@@ -1,0 +1,45 @@
+{
+    "name": "audio-segments-detector",
+    "version": "1.0.0",
+    "description": "A Node.js module for detecting speech segments in audio files",
+    "main": "src/index.js",
+    "types": "types/index.d.ts",
+    "scripts": {
+        "test": "jest",
+        "build": "tsc",
+        "lint": "eslint src/**/*.js",
+        "prepare": "npm run build"
+    },
+    "keywords": [
+        "audio",
+        "speech",
+        "detection",
+        "wav",
+        "segments",
+        "silence",
+        "voice activity detection"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "ffmpeg-static": "^5.2.0",
+        "fluent-ffmpeg": "^2.1.2",
+        "wav-decoder": "^1.3.0"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "eslint": "^8.56.0",
+        "typescript": "^5.3.3",
+        "@types/node": "^20.11.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/qwertyczee/audio-segments-detector.git"
+    },
+    "bugs": {
+        "url": "https://github.com/qwertyczee/audio-segments-detector/issues"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
